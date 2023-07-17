@@ -10,7 +10,7 @@ int main(void)
 	int b;
 	int c;
 
-	for (a = 0; a <= 9; a++)
+	for (a = 48; a <= 57; a++)
 	{
 		putchar(a);
 	}
@@ -21,6 +21,8 @@ int main(void)
 	for (c = b + 1; c <= 9; c++)
 	{
 		putchar(c);
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
