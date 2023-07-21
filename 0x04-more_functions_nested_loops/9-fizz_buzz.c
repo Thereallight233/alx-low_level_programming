@@ -10,12 +10,12 @@
 int main(void)
 {
 	int i;
-	
+
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 !=0)
+		if (i % 3 == 0 && i % 5 != 0)
 		{
-			print(" Fizz");
+			printf(" Fizz");
 		}
 		else if (i % 5 == 0 && i % 3 != 0)
 		{
@@ -29,7 +29,7 @@ int main(void)
 		{
 			printf(" %d", i);
 		}
-		else 
+		else
 		{
 			printf(" %d", i);
 		}
