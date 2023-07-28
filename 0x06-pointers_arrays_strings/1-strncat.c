@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* _strncat - appends the src string to the end of the dest string
+* _strncat - concatenates two strings.
 * @src: string appended to end
 * @dest: string at the beginning
 * @n: uses only n bytes from the source
